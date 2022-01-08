@@ -1,0 +1,122 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Orange: 	#ff7d1a
+- Pale orange:#ffede0
+
+### Neutral
+
+- Very vark blue: 	#1d2025
+- Dark grayish blue: #68707d
+- Grayish blue: 	#b6bcc8
+- Light grayish blue: 	#f7f8fd
+- White:	#ffffff
+- Black (with 75% opacity for lightbox background):rgba(0, 0, 0, 0.75); hsl(0, 0%, 0%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700 */
+
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+
+/* General style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Kumbh Sans", sans-serif;
+  width: 90rem;
+  padding: 2rem 8rem;
+
+  /* margin: 0 auto; */
+}
+/* NAVITION */
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+.nav-menu {
+  display: inline;
+  list-style: none;
+}
+
+.nav-menu li {
+  font-size: 0.85rem;
+  color: #b6bcc8;
+  display: inline;
+  margin: 1rem;
+}
+.avatar-img {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: auto;
+}
+
+/* MAIN SECTION */
+
+section {
+  display: flex;
+  gap: 4rem;
+  padding: 80px 0 0 0;
+}
+.product-img {
+  display: flex;
+  justify-content: space-between;
+}
+.shoes-img {
+  width: 100px;
+  border-radius: 9px;
+}
+.main-img {
+  width: 500px;
+  margin-bottom: 20px;
+}
+/* specifique styles */
+
+hr {
+  width: 74rem;
+  border: 0.1px solid #b6bcc8;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+/* main style */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
